@@ -2,21 +2,20 @@
 	box-sizing: border-box;
 }
 @font-face {
-	font-family: 'MyriadPro';
-	src: ('../fonts/MyriadPro-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+	font-family: MisoBold;
+	src: ('/fonts/miso-bold-webfont.woff') format('woff');
+	font-weight: bold;
 }
 @font-face {
-	font-family: 'Miso';
-	src: ('../fonts/miso-bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
+	font-family: Miso;
+	src: ('/fonts/miso-regular-webfont.woff') format('woff');
+	font-weight: normal;
 }
 body{
 	margin: 0;
 	background-color: #fdde7e;
-	font-family: MyriadPro, sans-serif;
+	font-family: Miso, sans-serif;
+	font-size: 16px;
 
 }
 p,h1,h2,h3,h4,h5,h6 {
