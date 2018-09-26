@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: 'MyriadPro';
+	src: ('../fonts/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Miso';
+	src: ('../fonts/miso-bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+body{
+	margin: 0;
+	background-color: #fdde7e;
+	font-family: MyriadPro, sans-serif;
+
+}
+p,h1,h2,h3,h4,h5,h6 {
+	padding: 0;
+	margin: 0;
+}
+
+/* Layout */
+.ba-container{
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
+	padding-top: 150px;
+}
+.ba-cofe-card {
+	background-color: #fff;
+	padding: 50px;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0px 0px 15px #cccccc;
+}
+.ba-cofe-cup > h2{
+	color: green;
+	text-align: center;
+	font-size: 30px;
+}
+.ba-cofe-cup {
+	padding-bottom: 10px;
+}
+.ba-cofe-cup > img {
+	padding-top: 10px;
+}
+.ba-cofe-title {
+	font-size: 40px;
+	color: #333333;
+}
+.ba-cofe-description {
+	max-width: 100px;
+	color: #4e4e4e;
+	text-align: center;
+}
+.big {
+	margin: 0 20px;
+	justify-content: space-around;
+}
